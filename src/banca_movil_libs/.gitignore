@@ -1,0 +1,81 @@
+# ------------------------
+# Miscellaneous
+# ------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# ------------------------
+# IntelliJ / Android Studio
+# ------------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# ------------------------
+# VS Code
+# ------------------------
+# La carpeta .vscode se puede versionar si contiene configuraciones útiles
+# Descomenta la línea siguiente si prefieres ignorarla
+# .vscode/
+
+# ------------------------
+# Flutter / Dart / Pub
+# ------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Documentación generada por `dart doc`
+**/doc/api/
+
+# En librerías, no se recomienda versionar pubspec.lock
+/pubspec.lock
+
+# ------------------------
+# Android
+# ------------------------
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/*.keystore
+android/key.properties
+android/captures/
+android/.cxx/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# ------------------------
+# iOS
+# ------------------------
+ios/.symlinks/
+ios/.generated/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Podfile.lock
+ios/build/
+
+# ------------------------
+# Symbolication / Obfuscation (Dart)
+# ------------------------
+app.*.symbols
+app.*.map.json

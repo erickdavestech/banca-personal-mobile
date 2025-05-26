@@ -1,0 +1,14 @@
+*.xcconfig
+*.sh
+src/.vscode/launch.json
+src/banca_movil_comercial/devtools_options.yaml
+/src/banca_movil_comercial/lib/build
+/src/banca_movil_comercial/macos
+/src/banca_movil_comercial/macos
+src/banca_movil_libs/devtools_options.yaml
+src/banca_movil_personal/devtools_options.yaml
+src/banca_movil_comercial/macos/Flutter/ephemeral/Flutter-Generated.xcconfig
+src/banca_movil_comercial/macos/Flutter/ephemeral/flutter_export_environment.sh
+src/.DS_Store
+src/banca_movil_comercial/ios/Podfile.lock
+src/banca_movil_comercial/ios/Podfile.lock

@@ -1,0 +1,53 @@
+# ───── Miscellaneous ─────
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ───── IDEs ─────
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/  # ← descomentar si no quieres versionar configuraciones de VS Code
+
+# ───── Flutter/Dart/Pub related ─────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+/build/
+*.lock
+
+# ───── iOS related ─────
+ios/Flutter/
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/DerivedData/
+ios/.dart_tool/
+
+# ───── Android related ─────
+android/.gradle/
+android/captures/
+android/.idea/
+android/local.properties
+android/.dart_tool/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# ───── Debug & Release artifacts ─────
+app.*.symbols
+app.*.map.json

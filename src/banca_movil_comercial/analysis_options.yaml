@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    deprecated_member_use: ignore
+    depend_on_referenced_packages: ignore
+    constant_identifier_names: ignore

@@ -1,0 +1,28 @@
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { 
+            url 'https://developer.huawei.com/repo/' // HUAWEI Maven repository 
+
+            name = "external"
+            url = uri("https://facephicorp.jfrog.io/artifactory/maven-pro-fphi")
+            credentials {
+                username = System.getenv("USERNAME_ARTIFACTORY")
+                password = System.getenv("TOKEN_ARTIFACTORY")
+            }
+        }
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
